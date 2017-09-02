@@ -31,10 +31,10 @@ deploy:
         - add-ssh-key:
             name: add ssh key
             keyname: DOCKER_SWARM_KEY
-      - weyforth/docker-swarm:
-          manager: $DOCKER_SWARM_MANAGER
-          user: $DOCKER_SWARM_USER
-          service: $DOCKER_SWARM_SERVICE_NAME
-          image: $DOCKER_REGISTRY_REPO
-          tag: $WERCKER_GIT_COMMIT
+        - weyforth/docker-swarm:
+            manager: $DOCKER_SWARM_MANAGER
+            user: $DOCKER_SWARM_USER
+            service: $DOCKER_SWARM_SERVICE_NAME
+            image: $DOCKER_REGISTRY_REPO
+            tag: $WERCKER_GIT_COMMIT
 ```
