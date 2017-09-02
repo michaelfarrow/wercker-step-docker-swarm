@@ -2,6 +2,8 @@
 
 Deploy an image to a Docker Swarm cluster.
 
+[![wercker status](https://app.wercker.com/status/9d35e3c6afc4d7d5afd4c8624b05543a/m "wercker status")](https://app.wercker.com/project/bykey/9d35e3c6afc4d7d5afd4c8624b05543a)
+
 ### Options:
 
 - `manager` (required) Manager Docker Swarm node ip or fqdn.
