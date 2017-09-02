@@ -2,7 +2,7 @@
 
 Deploy an image to a Docker Swarm cluster.
 
-[![wercker status](https://app.wercker.com/status/9d35e3c6afc4d7d5afd4c8624b05543a/m "wercker status")](https://app.wercker.com/project/bykey/9d35e3c6afc4d7d5afd4c8624b05543a)
+[![wercker status](https://app.wercker.com/status/1e1f9d1209e4ded508b7215b69017a99/m "wercker status")](https://app.wercker.com/project/bykey/1e1f9d1209e4ded508b7215b69017a99)
 
 ### Options:
 
