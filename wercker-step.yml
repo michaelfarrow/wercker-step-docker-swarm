@@ -5,6 +5,7 @@ keywords:
   - docker
   - swarm
   - deploy
+  - image
 properties:
   manager:
     type: string
