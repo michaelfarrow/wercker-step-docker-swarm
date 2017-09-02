@@ -1,0 +1,23 @@
+name: docker-swarm
+version: 0.0.1
+description: Deploy to Docker Swarm.
+keywords:
+  - docker
+  - swarm
+  - deploy
+properties:
+  manager:
+    type: string
+    required: true
+  user:
+    type: string
+    required: false
+  service:
+    type: string
+    required: false
+  image:
+    type: string
+    required: true
+  tag:
+    type: string
+    required: true
