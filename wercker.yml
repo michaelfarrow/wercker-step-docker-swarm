@@ -2,7 +2,7 @@ box: wercker/default
 build:
   steps:
     - shellcheck:
-        files: run.sh
+        files: run.sh cmd.sh
         exclude: SC2029
     - script:
         name: prepare output
